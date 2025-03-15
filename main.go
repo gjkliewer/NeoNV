@@ -262,7 +262,7 @@ func openFileFromList(id int) {
 	log.Debug("Selecting list item", "id", id)
 	notesList.Select(id)
 	// open file in preview mode
-	editor.PreviewMode()
+	editor.EnterPreviewMode()
 }
 
 func buildMatches(input string) {
