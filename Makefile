@@ -15,4 +15,5 @@ package: clean
 	# mv NeoNV.app .tmp
 
 install:
+	go get ./...
 	go run fyne.io/fyne/v2/cmd/fyne install
